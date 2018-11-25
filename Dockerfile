@@ -1,5 +1,9 @@
 FROM node:10.13.0-alpine
 
-COPY app.js /app.js
+WORKDIR /usr/src/app
 
-ENTRYPOINT ["node", "/app.js"]
+COPY . .
+
+EXPOSE 8080
+
+CMD ["npm", "start"]

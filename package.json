@@ -1,0 +1,20 @@
+{
+  "name": "kuca",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keights/kuca.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keights/kuca/issues"
+  },
+  "homepage": "https://github.com/keights/kuca#readme"
+}
